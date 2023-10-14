@@ -4,9 +4,7 @@ import github from "../assets/github.png";
 import html from "../assets/html.png";
 import js from "../assets/javascript.png";
 import reactimg from "../assets/react.png";
-import tailwind from "../assets/tailwind.png";
-import php from "../assets/php.jpeg";
-import cpp from "../assets/cpp.png";
+
 
 const Experience = () => {
 
@@ -36,27 +34,11 @@ const Experience = () => {
             style: 'shadow-blue-600'
         },
         {
-            id: 5,
-            src: tailwind,
-            title: 'Tailwind',
-            style: 'shadow-sky-400'
-        },
-        {
             id: 6,
             src: github,
             title: 'GitHub',
             style: 'shadow-gray-400'
         },
-        {
-            id: 7,
-            src: php, 
-            style: 'shadow-blue-800'
-        },
-        {
-            id: 9,
-            src: cpp,
-            style: 'shadow-blue-900'
-        }
     ]
 
     return (
